@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search One Piece Character</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./img/One-Piece-Color.png" type="image/x-icon">
+</head>
+<body>
+    <button id="toggleTheme">Change mode</button>
+  <div class="container">
+    <h1>Search One Piece Character</h1>
+    <form id="loginForm">
+      <label for="username">User:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button id="loginButton">Log in</button>
+    </form>
+    <div id="searchForm" style="display: none;">
+      <label for="characterName">Character's name:</label>
+      <input type="text" id="characterName" name="characterName">
+      <button id="searchButton">Search</button>
+    </div>
+    <div id="result" class="result-container"></div>
+  </div>
+  <script src="script.js"></script>
+  <footer><img src="./img/one-piece-one-piece-logo.gif" alt="Imagen GIF" id="gifImage"></footer>
+</body>
+</html>
